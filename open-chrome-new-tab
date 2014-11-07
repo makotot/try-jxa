@@ -1,0 +1,12 @@
+#!/usr/bin/env osascript -l JavaScript
+
+var Chrome = Application('Google Chrome'),
+  window = Chrome.windows[0];
+
+window.name();
+
+var tab = Chrome.Tab({
+  url: 'https://github.com'
+});
+
+window.tabs.push(tab);
