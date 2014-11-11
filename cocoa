@@ -1,0 +1,4 @@
+#!/usr/bin/env osascript -l JavaScript
+
+ObjC.import('Cocoa');
+$.NSLog('Hello');
